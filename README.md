@@ -23,7 +23,8 @@ python main.py --models/model.keras --input/audiofile.wav
 
 ## Citation
 
-Pretrained Transformer
+Pretrained Transformer ast
+
 @inproceedings{gong21b_interspeech,
   author={Yuan Gong and Yu-An Chung and James Glass},
   title={{AST: Audio Spectrogram Transformer}},
@@ -33,7 +34,8 @@ Pretrained Transformer
   doi={10.21437/Interspeech.2021-698}
 }
 
-Dataset
+Dataset UrbanSound8k
+
 @techreport{salamon2014urbansound8k,
   title       = {UrbanSound8K: A Dataset of Urban Sounds},
   author      = {Salamon, Justin and Jacoby, Chris and Bello, Juan Pablo},
