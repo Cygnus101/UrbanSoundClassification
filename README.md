@@ -21,7 +21,7 @@ To use the models using Mel-Frequency Cepstral Coefficients (Lower Accuracy):
 ```bash
 python main.py --models/model_.keras --input/audiofile.wav
 ```
-TO use the finetuned transformer (Higher Accuracy): 
+To use the finetuned transformer (Higher Accuracy): 
 1. Download the finetuned model weights from https://huggingface.co/RajathRajesh12/UrbanSound8kAST/tree/main
 2. Move the weights to model folder
 3. Run the below code with the model name 
