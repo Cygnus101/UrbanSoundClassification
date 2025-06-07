@@ -21,26 +21,8 @@ pip install -r requirements.txt
 python main.py --models/model.keras --input/audiofile.wav
 ```
 
-## Citation
+## References  
 
-Pretrained Transformer ast
-
-@inproceedings{gong21b_interspeech,
-  author={Yuan Gong and Yu-An Chung and James Glass},
-  title={{AST: Audio Spectrogram Transformer}},
-  year=2021,
-  booktitle={Proc. Interspeech 2021},
-  pages={571--575},
-  doi={10.21437/Interspeech.2021-698}
-}
-
-Dataset UrbanSound8k
-
-@techreport{salamon2014urbansound8k,
-  title       = {UrbanSound8K: A Dataset of Urban Sounds},
-  author      = {Salamon, Justin and Jacoby, Chris and Bello, Juan Pablo},
-  institution = {New York University},
-  year        = {2014},
-  url         = {https://urbansounddataset.weebly.com/urbansound8k.html}
-}
+* Gong, Y., Chung, Y-A., & Glass, J. (2021). **AST: Audio Spectrogram Transformer**. *Proc. Interspeech 2021*, 571-575. https://doi.org/10.21437/Interspeech.2021-698  
+* Salamon, J., Jacoby, C., & Bello, J. P. (2014). **UrbanSound8K** [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.1203745
 
