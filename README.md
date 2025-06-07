@@ -17,10 +17,19 @@ pip install -r requirements.txt
 
 ## Usage
 
+To use the models using Mel-Frequency Cepstral Coefficients (Lower Accuracy):
 ```bash
-python main.py --models/model.keras --input/audiofile.wav
+python main.py --models/model_.keras --input/audiofile.wav
 ```
+TO use the finetuned transformer (Higher Accuracy): 
+1. Download the finetuned model weights from https://huggingface.co/RajathRajesh12/UrbanSound8kAST/tree/main
+2. Move the weights to model folder
+3. Run the below code with the model name 
 
+```bash
+python main.py --models/ast_urbansound8k_finetuned.pth --input/audiofile.wav
+```
+                                  
 ## References  
 
 * Gong, Y., Chung, Y-A., & Glass, J. (2021). **AST: Audio Spectrogram Transformer**. *Proc. Interspeech 2021*, 571-575. https://doi.org/10.21437/Interspeech.2021-698  
